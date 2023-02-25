@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create two collum one named left of 25% and one named left 75%, the content of left class is flex-end */
+.container {
+    display: flex;
+    gap: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: antiquewhite;
+}
+
+.square {
+    width: 64px;
+    height: 64px;
+    background-color: #717171;
+    border-radius: 5px;
+}
+
+.left {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right {
+    width: 75%;
+    height: 100%;
+    color: #000;
+}
