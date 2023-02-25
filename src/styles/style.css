@@ -14,7 +14,6 @@ main {
     align-items: center;
 }
 
-/* Create two collum one named left of 25% and one named left 75%, the content of left class is flex-end */
 .container {
     display: flex;
     gap: 0 20px;
